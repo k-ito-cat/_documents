@@ -2,7 +2,6 @@ import { defineConfig } from 'vitepress';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: '/_documents/',
   title: 'Template Docs',
   description: 'A VitePress Site',
   themeConfig: {
