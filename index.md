@@ -3,8 +3,8 @@
 layout: home
 
 hero:
-  name: "Nuxt SPA Template"
-  text: "A VitePress Site"
+  name: 'Template Docs'
+  text: 'A VitePress Site'
   tagline: My great project tagline
   actions:
     - theme: brand
@@ -15,11 +15,12 @@ hero:
       link: /api-examples
 
 features:
-  - title: Feature A
+  - title: Nuxt SPA Template
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
+    link: /nuxt-spa-template
+  - title: Nuxt Static Site Template
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    link: /nuxt-static-site-template
   - title: Feature C
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
-
