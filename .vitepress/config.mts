@@ -14,10 +14,34 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'Examples',
+        text: 'Guide',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' },
+          { text: 'Introduction', link: '/guide/introduction' },
+          {
+            text: 'Getting Started',
+            items: [
+              {
+                text: 'Installation',
+                link: '/guide/getting-started/installation',
+              },
+              {
+                text: 'Configuration',
+                link: '/guide/getting-started/configuration',
+              },
+              {
+                items: [
+                  {
+                    text: 'Installation',
+                    link: '/guide/getting-started/installation',
+                  },
+                  {
+                    text: 'Configuration',
+                    link: '/guide/getting-started/configuration',
+                  },
+                ],
+              },
+            ],
+          },
         ],
       },
     ],
